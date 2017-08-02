@@ -1,0 +1,101 @@
+body {
+    background-image: url("pics/bg.jpg");
+    background-size: 100%;
+}
+
+.index {
+    font-family: menlo, sans-serif;
+    font-size: 12px;
+    margin: 80px;
+    line-height: 25px;
+}
+
+.artdoc {
+    position:absolute;
+    top: 30%;
+    left: 10%;
+}
+
+a {
+    color:orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color:greenyellow;
+    text-decoration: bold;
+    
+}
+
+.disc {
+    font-family: menlo, sans-serif;
+    font-size: 12px;
+    width: 30%;
+    line-height: 30px;
+    position:fixed;
+    top: 60%;
+    right: 10%;
+    background-image: url("pics/confetti.gif");
+    background-size: 45%;
+}
+
+#proj1 {
+    position: absolute;  
+    right: 150px;  
+    top: 100px;
+}
+
+#proj2 {
+    position: absolute;
+    left:350px;
+    bottom: 100px;
+}
+
+#proj4 {
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+    filter:opacity(50%);
+}
+
+.about {
+    font-family: menlo, sans-serif;
+    
+    font-size: 104px;
+    
+    line-height: 105px;
+    text-align: justify;
+}
+
+
+.instagram-media {
+    position:absolute;
+    height: 100%;
+    left: 20%;
+}
+
+#doc {
+    position:absolute;
+    top: 10%;
+    left: 20%;
+    right: 10px;
+    bottom: 10px;
+}
+
+#home {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#contact {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+
+iframe {
+    border-width: 0px;
+}
