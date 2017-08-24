@@ -27,13 +27,13 @@ a:hover {
     
 }
 
-.disc {
+#disc {
     font-family: menlo, sans-serif;
     font-size: 12px;
     width: 30%;
     line-height: 30px;
     position:fixed;
-    top: 60%;
+    bottom: 30%;
     right: 10%;
     background-image: url("pics/confetti.gif");
     background-size: 45%;
@@ -43,6 +43,12 @@ a:hover {
     position: absolute;  
     right: 150px;  
     top: 100px;
+
+}
+
+#drag-me::before {
+  content: "#" attr(id);
+  font-weight: bold;
 }
 
 #proj2 {
