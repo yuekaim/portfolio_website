@@ -1,6 +1,11 @@
 body {
     background-image: url("pics/bg.jpg");
     background-size: 100%;
+    
+    font-family: menlo, sans-serif;
+    font-size: 12px;
+    margin: 80px;
+    line-height: 25px;
 }
 
 .index {
@@ -104,4 +109,13 @@ a:hover {
 
 iframe {
     border-width: 0px;
+}
+
+.sub {
+    font-family: menlo, sans-serif;
+    font-size: 12px;
+    margin: 80px;
+    line-height: 25px;
+    position: absolute;
+    right: 30%;
 }
