@@ -5,11 +5,9 @@ function jxs_box()
 {
 	$OBJ =& get_instance();
 	global $default;
-
-	$media_id = (isset($_POST['i'])) ? (int) $_POST['i'] : 0;
 	
 	$rs = $OBJ->db->fetchRecord("SELECT * FROM ".PX."objects, ".PX."media 
-		WHERE media_id = '$media_id' 
+		WHERE media_id = '$_POST[i]' 
 		AND media_ref_id = id");
 	
 	$title = ($rs['media_title'] == '') ? '' : "<div class='title'>" . $rs['media_title'] . "</div>";
